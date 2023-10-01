@@ -9,3 +9,4 @@ jobs:
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_RGB_UNDERGLOW=n\nCONFIG_WS2812_STRIP=n\nCONFIG_ZMK_SLEEP=y"]'
       alphas: '["QWERTZ"]'
+      clipboard: '[win]'
