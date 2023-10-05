@@ -25,9 +25,9 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
 
 #define MIRYOKU_LAYER_BASE \
 &kp DE_Q,             &kp DE_W,             &kp DE_E,             &kp DE_R,             &kp DE_T,             &kp DE_Z,             &kp DE_U,             &kp DE_I,             &kp DE_O,             &kp DE_P,             \
-U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SQT),   \
-U_LT(U_BUTTON, Y), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+U_MT(LGUI, DE_A),     U_MT(LALT, DE_S),     U_MT(LCTRL, DE_D),    U_MT(LSHFT, DE_F),    &kp DE_G,             &kp DE_H,             U_MT(LSHFT, DE_J),    U_MT(LCTRL, DE_K),    U_MT(LALT, DE_L),     U_MT(LGUI, DE_SQT),   \
+U_LT(U_BUTTON, DE_Y), U_MT(RALT, DE_X),     &kp DE_C,             &kp DE_V,             &kp DE_B,             &kp DE_N,             &kp DE_M,             &kp DE_ COMMA,         U_MT(RALT, DE_DOT),   U_LT(U_BUTTON, DE_SLASH),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, DE_SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #endif
 
