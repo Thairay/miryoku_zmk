@@ -31,14 +31,14 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, DE_SPACE),U
 
 #define MIRYOKU_LAYER_NUM \
 &kp DE_LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp DE_RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp DE_PLUS,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
+&kp DE_PLUS,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp DE_LT,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp DE_MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
 &kp DE_LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp DE_RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp DE_ASTRK,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
+&kp DE_ASTRK,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp DE_GT,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp DE_UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #endif
