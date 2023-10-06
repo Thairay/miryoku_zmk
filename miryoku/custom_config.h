@@ -16,9 +16,9 @@
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&kp EXCL  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
+&kp DE_A_UMLAUT   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
+&kp DE_O_UMLAUT  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
+&kp DE_U_UMLAUT  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
                K32  K33  K34       K35  K36  K37
 
 #if defined (MIRYOKU_KEYBOARD_CORNE)
@@ -26,20 +26,20 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
 #define MIRYOKU_LAYER_BASE \
 &kp DE_Q,             &kp DE_W,             &kp DE_E,             &kp DE_R,             &kp DE_T,             &kp DE_Z,             &kp DE_U,             &kp DE_I,             &kp DE_O,             &kp DE_P,             \
 U_MT(LGUI, DE_A),     U_MT(LALT, DE_S),     U_MT(LCTRL, DE_D),    U_MT(LSHFT, DE_F),    &kp DE_G,             &kp DE_H,             U_MT(LSHFT, DE_J),    U_MT(LCTRL, DE_K),    U_MT(LALT, DE_L),     U_MT(LGUI, DE_HASH),   \
-U_LT(U_BUTTON, DE_Y), U_MT(RALT, DE_X),     &kp DE_C,             &kp DE_V,             &kp DE_B,             &kp DE_N,             &kp DE_M,             &kp DE_COMMA,         U_MT(RALT, DE_DOT),   U_LT(U_BUTTON, DE_MINUS),\
+U_LT(U_BUTTON, DE_Y), U_MT(RALT, DE_X),     &kp DE_C,             &kp DE_V,             &kp DE_B,             &kp DE_N,             &kp DE_M,             &kp DE_COMMA,         U_MT(RALT, DE_DOT),   U_LT(U_BUTTON, DE_QMARK),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, DE_SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
 &kp DE_LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp DE_RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp DE_PLUS,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp DE_MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
 &kp DE_LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp DE_RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp DE_ASTRK,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp DE_UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #endif
 
