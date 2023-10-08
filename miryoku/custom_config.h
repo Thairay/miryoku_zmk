@@ -60,6 +60,11 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
                key-positions = <3 7>;
                bindings = <&kp DE_U_UMLAUT>;
           };
+            combo_cp {
+               timeout-ms = <50>;
+               key-positions = <5 7>;
+               bindings = <&kp DE_U_UMLAUT>;
+          };
     };
 };
 
