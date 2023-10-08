@@ -57,6 +57,21 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
                key-positions = <3 7>;
                bindings = <&kp DE_U_UMLAUT>;
           };
+          combo_copy {
+               timeout-ms = <50>;
+               key-positions = <28 27>;
+               bindings = <&kp U_CPY>;
+          };
+          combo_cut {
+               timeout-ms = <50>;
+               key-positions = <26 27>;
+               bindings = <&kp U_CUT>;
+          };
+          combo_paste {
+               timeout-ms = <50>;
+               key-positions = <28 29>;
+               bindings = <&kp U_PST>;
+          };
     };
 };
 #if defined (MIRYOKU_KEYBOARD_CORNE)
