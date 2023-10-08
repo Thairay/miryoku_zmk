@@ -68,12 +68,12 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
           combo_cut {
                timeout-ms = <50>;
                key-positions = <26 27>;
-               bindings = U_CUT;
+               bindings = <&kp LC(X)>;
           };
           combo_paste {
                timeout-ms = <50>;
                key-positions = <28 29>;
-               bindings = U_PST;
+               bindings = <&kp LC(V)>;
           };
     };
 };
