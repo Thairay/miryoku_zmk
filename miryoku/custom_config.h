@@ -18,7 +18,7 @@ customcombo_ ## LAYER ## _ ## POSITION { \
   layers = <LAYER>; \
   key-positions = <CUSTOM_COMBOS_ ## POSITION>; \
   bindings = <BINDING>; \
-  timeout-ms = <MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_TERM>; \
+  timeout-ms = <CUSTOM_COMBOS_TERM>; \
 };
 
 / {
