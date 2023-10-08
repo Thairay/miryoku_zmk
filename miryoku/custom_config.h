@@ -24,7 +24,7 @@ customcombo_ ## LAYER ## _ ## POSITION { \
 / {
   combos {
     compatible = "zmk,combos";
-     CUSTOM_COMBOS_MACRO(U_BASE, ae , &kp DE_A_UMLAUT)
+    CUSTOM_COMBOS_MACRO(U_BASE, ae , &kp DE_A_UMLAUT)
   };
 };
 #define MIRYOKU_LAYOUTMAPPING_CORNE( \
