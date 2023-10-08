@@ -10,6 +10,21 @@
 
 #define XXX &none
 
+#define CUSTOM_COMBOS_TERM 50
+#define CUSTOM_COMBOS_MACRO(LAYER, POSITION, BINDING) \
+customcombo_ ## LAYER ## _ ## POSITION { \
+  layers = <U_BASE>; \
+  key-positions = <POSITION>; \
+  bindings = <BINDING>; \
+  timeout-ms = <MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_TERM>; \
+};
+
+/ {
+  combos {
+    compatible = "zmk,combos";
+     CUSTOM_COMBOS_MACRO(U_BASE, 13 3, &kp DE_A_UMLAUT)
+  };
+};
 #define MIRYOKU_LAYOUTMAPPING_CORNE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
