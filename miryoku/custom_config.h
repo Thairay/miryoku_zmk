@@ -1,13 +1,15 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#include "keys_de.h"
-#include "miryoku_clipboard.h"
+
 #define MIRYOKU_ALPHAS_QWERTZ
 #define MIRYOKU_TAP_QWERTZ
 #define MIRYOKU_EXTRA_QWERTZ
 #define MIRYOKU_CLIPBOARD_WIN
 #define MIRYOKU_KLUDGE_MOUSEKEYSPR
+
+#include "keys_de.h"
+#include "miryoku_clipboard.h"
 
 #define XXX &none
 
