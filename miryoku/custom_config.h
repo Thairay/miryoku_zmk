@@ -10,11 +10,13 @@
 
 #define XXX &none
 
+
+#define CUSTOM_COMBOS_ae 13 3
 #define CUSTOM_COMBOS_TERM 50
 #define CUSTOM_COMBOS_MACRO(LAYER, POSITION, BINDING) \
 customcombo_ ## LAYER ## _ ## POSITION { \
-  layers = <U_BASE>; \
-  key-positions = <POSITION>; \
+  layers = <LAYER>; \
+  key-positions = <CUSTOM_COMBOS_ ## POSITION>; \
   bindings = <BINDING>; \
   timeout-ms = <MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_TERM>; \
 };
@@ -22,7 +24,7 @@ customcombo_ ## LAYER ## _ ## POSITION { \
 / {
   combos {
     compatible = "zmk,combos";
-     CUSTOM_COMBOS_MACRO(U_BASE, 13 3, &kp DE_A_UMLAUT)
+     CUSTOM_COMBOS_MACRO(U_BASE, ae , &kp DE_A_UMLAUT)
   };
 };
 #define MIRYOKU_LAYOUTMAPPING_CORNE( \
