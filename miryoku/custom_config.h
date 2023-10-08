@@ -60,7 +60,6 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
                key-positions = <3 7>;
                bindings = <&kp DE_U_UMLAUT>;
           };
-
     };
 };
 #if defined (MIRYOKU_KEYBOARD_CORNE)
