@@ -2,6 +2,7 @@
 // https://github.com/manna-harbour/miryoku
 
 #include "keys_de.h"
+#include "miryoku_clipboard.h"
 #define MIRYOKU_ALPHAS_QWERTZ
 #define MIRYOKU_TAP_QWERTZ
 #define MIRYOKU_EXTRA_QWERTZ
