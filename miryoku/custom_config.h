@@ -10,7 +10,7 @@
 
 #define XXX &none
 
-
+/*
 #define CUSTOM_COMBOS_ae 11 3
 #define CUSTOM_COMBOS_TERM 50
 #define CUSTOM_COMBOS_MACRO(LAYER, POSITION, BINDING) \
@@ -26,7 +26,8 @@ customcombo_ ## LAYER ## _ ## POSITION { \
     compatible = "zmk,combos";
     CUSTOM_COMBOS_MACRO(U_BASE, ae , &kp DE_A_UMLAUT)
   };
-};
+}*\  
+
 #define MIRYOKU_LAYOUTMAPPING_CORNE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
