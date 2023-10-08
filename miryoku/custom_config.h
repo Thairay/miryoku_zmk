@@ -63,17 +63,17 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
           combo_copy {
                timeout-ms = <50>;
                key-positions = <27 28>;
-               bindings = <U_CPY>;
+               bindings = U_CPY;
           };
           combo_cut {
                timeout-ms = <50>;
                key-positions = <26 27>;
-               bindings = <U_CUT>;
+               bindings = U_CUT;
           };
           combo_paste {
                timeout-ms = <50>;
                key-positions = <28 29>;
-               bindings = <U_PST>;
+               bindings = U_PST;
           };
     };
 };
