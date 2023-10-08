@@ -39,6 +39,16 @@
 &kp DE_U_UMLAUT  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
                K32  K33  K34       K35  K36  K37
 
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_ae {
+            timeout-ms = <50>;
+            key-positions = <3 11>;
+            bindings = <&kp DE_A_UMLAUT>;
+        };
+    };
+};
 #if defined (MIRYOKU_KEYBOARD_CORNE)
 
 #define MIRYOKU_LAYER_BASE \
