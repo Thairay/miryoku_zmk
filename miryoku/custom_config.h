@@ -11,7 +11,7 @@
 #define XXX &none
 
 
-#define CUSTOM_COMBOS_ae 13 3
+#define CUSTOM_COMBOS_ae 11 3
 #define CUSTOM_COMBOS_TERM 50
 #define CUSTOM_COMBOS_MACRO(LAYER, POSITION, BINDING) \
 customcombo_ ## LAYER ## _ ## POSITION { \
