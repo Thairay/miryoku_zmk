@@ -63,7 +63,7 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
             combo_cp {
                timeout-ms = <50>;
                key-positions = <27 28>;
-               bindings = <&kp DE_A>;
+               bindings = <&kp DE_U_UMLAUT>;
           };
     };
 };
