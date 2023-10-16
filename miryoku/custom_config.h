@@ -80,6 +80,10 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
 
 #if defined (MIRYOKU_KEYBOARD_CORNE)
 
+&nice_view_spi {
+    cs-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
+};
+
 #define MIRYOKU_LAYER_BASE \
 &kp DE_Q,             &kp DE_W,             &kp DE_E,             &kp DE_R,             &kp DE_T,             &kp DE_Z,             &kp DE_U,             &kp DE_I,             &kp DE_O,             &kp DE_P,             \
 U_MT(LGUI, DE_A),     U_MT(LALT, DE_S),     U_MT(LCTRL, DE_D),    U_MT(LSHFT, DE_F),    &kp DE_G,             &kp DE_H,             U_MT(LSHFT, DE_J),    U_MT(LCTRL, DE_K),    U_MT(LALT, DE_L),     U_MT(LGUI, DE_HASH),   \
