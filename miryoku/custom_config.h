@@ -81,7 +81,7 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
 #if defined (MIRYOKU_KEYBOARD_CORNE)
 
 &nice_view_spi {
-    cs-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
+    cs-gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>;
 };
 
 #define MIRYOKU_LAYER_BASE \
